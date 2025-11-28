@@ -56,16 +56,11 @@
 
 | ID | Severity | Finding | Description | Evidence / Proof |
 |------|-----------|----------|--------------|------------------|
-| F-01 | 🔴 High | No administrator account barrier | Users can select the "administrator" option when creating an account | <img width="637" height="31" alt="image" src="https://github.com/user-attachments/assets/9e421250-51f2-49d8-81bb-7712c7ee2a30" />
- |
-| F-02 | 🔴 High | Email is not verified | Users can enter a fake email, or another person's email. This could lead to DoS attacks and identity fraud | <img width="640" height="30" alt="image" src="https://github.com/user-attachments/assets/a48980ea-9c3d-4570-8326-58d437a7cb69" />
- |
-| F-03 | 🟠 Medium | Faulty credentials | It is possible to bypass client-side checks by manually sending the HTTP form. This allows emails like "a" and passwords like "1234", or even no password. This could be used to break automated scripts running using your database and cause crashes. Moreover, this could be an SQL injection entry point when connected to the rest of the app. | <img width="669" height="24" alt="image" src="https://github.com/user-attachments/assets/946aef8e-6e5b-4586-9b51-66909fc3ae5d" />
- |
-| F-04 | 🟡 Low | Weak password policy | Accepts passwords like "12345" | <img width="641" height="26" alt="image" src="https://github.com/user-attachments/assets/04e1b533-b6de-45b6-ad1e-a3b04622a964" />
- |
-| F-05 | 🟡 Low | Young users are allowed to register with invlaid birth dates | The age of a user should be checked to determine if the user is legally authorized to use the website. Also, an account should not be created for invalid birth dates (i.e. 01.01.0001, or 01.01.2100) | <img width="631" height="29" alt="image" src="https://github.com/user-attachments/assets/bcb86332-d5fc-4624-bd85-cc39bb8c238c" />
- |
+| F-01 | 🔴 High | No administrator account barrier | Users can select the "administrator" option when creating an account | <img width="637" height="31" alt="image" src="https://github.com/user-attachments/assets/9e421250-51f2-49d8-81bb-7712c7ee2a30" /> |
+| F-02 | 🔴 High | Email is not verified | Users can enter a fake email, or another person's email. This could lead to DoS attacks and identity fraud | <img width="640" height="30" alt="image" src="https://github.com/user-attachments/assets/a48980ea-9c3d-4570-8326-58d437a7cb69" /> |
+| F-03 | 🟠 Medium | Faulty credentials | It is possible to bypass client-side checks by manually sending the HTTP form. This allows emails like "a" and passwords like "1234", or even no password. This could be used to break automated scripts running using your database and cause crashes. Moreover, this could be an SQL injection entry point when connected to the rest of the app. | <img width="669" height="24" alt="image" src="https://github.com/user-attachments/assets/946aef8e-6e5b-4586-9b51-66909fc3ae5d" /> |
+| F-04 | 🟡 Low | Weak password policy | Accepts passwords like "12345" | <img width="641" height="26" alt="image" src="https://github.com/user-attachments/assets/04e1b533-b6de-45b6-ad1e-a3b04622a964" /> |
+| F-05 | 🟡 Low | Young users are allowed to register with invlaid birth dates | The age of a user should be checked to determine if the user is legally authorized to use the website. Also, an account should not be created for invalid birth dates (i.e. 01.01.0001, or 01.01.2100) | <img width="631" height="29" alt="image" src="https://github.com/user-attachments/assets/bcb86332-d5fc-4624-bd85-cc39bb8c238c" /> |
 
 ---
 

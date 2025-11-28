@@ -66,6 +66,6 @@
 
 # 5️⃣ OWASP ZAP Test Report (Attachment)
 
-For more information, and a more exhaustive list of vulnerabilities, take a look at this [ZAP Test report](https://github.com/chachoumancentria/CybersecurityAndDataPrivacy/blob/main/ZAP%20Reports/2025-11-28-ZAP-Report.md):
+For more information, and a more complete list of vulnerabilities, take a look at this [ZAP Test report](https://github.com/chachoumancentria/CybersecurityAndDataPrivacy/blob/main/ZAP%20Reports/2025-11-28-ZAP-Report.md)
 
 ---

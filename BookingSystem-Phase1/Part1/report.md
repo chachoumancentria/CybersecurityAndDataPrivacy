@@ -66,24 +66,6 @@
 
 # 5️⃣ OWASP ZAP Test Report (Attachment)
 
-**Purpose:**  
-- Attach or link your OWASP ZAP scan results (Markdown format preferred).
-
----
-
-**Instructions (CMD version):**
-1. Run OWASP ZAP baseline scan:  
-   ```bash
-   zap-baseline.py -t https://example.com -r zap_report_round1.html -J zap_report.json
-   ```
-2. Export results to markdown:  
-   ```bash
-   zap-cli report -o zap_report_round1.md -f markdown
-   ```
-3. Save the report as `zap_report_round1.md` and link it below.
-
----
-> [!NOTE]
-> 📁 **Attach full report:** → `check itslearning` → **Add a link here**
+For more information, and a more exhaustive list of vulnerabilities, take a look at this [ZAP Test report](https://github.com/chachoumancentria/CybersecurityAndDataPrivacy/blob/main/ZAP%20Reports/2025-11-28-ZAP-Report.md):
 
 ---

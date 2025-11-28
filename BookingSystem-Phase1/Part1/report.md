@@ -1,51 +1,42 @@
-Vulnerabilities :
-- Users should not be able to create administrator accounts
-- email should be verified to avoid DoS attacks
-
-- It is possible to create an account with and invalid email when bypassing UI
-
-- birth date is not checked, a user can register with a date in the future
-- Unsecure password are authorized (passwords like "abc", or "1234".)
-
-- It is possible to create an account with no password when bypassing UI
-- Missing Privacy Policy, Terms of Service, and Cookie Policy.
-
-
 # 1️⃣ Introduction
 
 **Tester(s):**  
-- Name: Nassim Boudekhani
+- Joseph Couprie & Nassim Boudekhani
 
 **Purpose:**  
-- Find vulnerabilities in the registration process, and its related components.
+- Find security related vulnerabilities in the registration system
 
 **Scope:**  
-- Tested components:  HTML form validation, registration API
-- Exclusions:  Database
-- Test approach: Gray-box / Black-box / White-box
+- Tested components:  Account registration page
+- Exclusions:  Missing Privacy Policy, Terms of Service, and Cookie Policy pages, and any other page not related to registration.
+- Test approach: Gray-box
 
 **Test environment & dates:**  
-- Start:  
-- End:  
-- Test environment details (OS, runtime, DB, browsers):
+- Start:  23.11.2025
+- End:  23.11.2025
+- Test environment details (OS, runtime, DB, browsers): Arch linux + Docker engine, Firefox browser
 
 **Assumptions & constraints:**  
-- e.g., credentials provided, limited time, etc.
+- None
 
 ---
 
-# 2️⃣ Executive Summary
+# :two: Executive Summary
 
-**Short summary (1-2 sentences):**  
+**Short summary:**  
 
-**Overall risk level:** (Low / Medium / High / Critical)
+- We found some vulnerabilities and design flaws, some of them highly serious, that needs to be fixed immediately.
+
+**Overall risk level:**
+
+- 🔴 Critical
 
 **Top 5 immediate actions:**  
-1.  
-2.  
-3.  
-4.  
-5.  
+1. You are not supposed to be able to create an administrator account directly from the website. You should remove this option.
+2. You are not verifying the email adress, which can lead to DoS and email adress steal (one user using someone else's adress to create an account). You should send a verification email to check it's validity.
+3. It is possible to bypass the UI and thus create accounts with empty passwords and/or invalid emails. This can lead to conflicts when using automatic programs to send emails. It may also allow SQL injection. The email and password check should also be server side.
+4. The birth date of users are not checked. This can lead to legal issues. Implement a simple age verification when creating an account.
+5. It is possible to create an account with very weak passwords (ie : abc or 123). You force passwords to be complicated enough (8 characters minimum, should include Upper and Lower case letters, and use at least 1 special symbol).
 
 ---
 
@@ -61,21 +52,15 @@ Vulnerabilities :
 
 ---
 
-# 4️⃣ Findings (filled with examples → replace)
-
-> Fill in one row per finding. Focus on clarity and the most important issues.
+# 4️⃣ Findings
 
 | ID | Severity | Finding | Description | Evidence / Proof |
 |------|-----------|----------|--------------|------------------|
-| F-01 | 🔴 High | SQL Injection in registration | Input field allows `' OR '1'='1` injection | Screenshot or sqlmap result |
-| F-02 | 🟠 Medium | Session fixation | Session ID remains unchanged after login | Burp log or response headers |
-| F-03 | 🟡 Low | Weak password policy | Accepts passwords like "12345" | Screenshot of registration success |
-
----
-
-> [!NOTE]
-> Include up to 5 findings total.   
-> Keep each description short and clear.
+| F-01 | 🔴 High | No administrator account barrier | Users can select the "administrator" option when creating an account |  |
+| F-02 | 🔴 High | Email is not verified | Users can enter a fake email, or another person's email. This could lead to DoS attacks and identity fraud |  |
+| F-03 | 🟠 Medium | Faulty credentials | It is possible to bypass client-side checks by manually sending the HTTP form. This allows emails like "a" and passwords like "1234", or even no password. This could break automated scripts running on your database and cause crashes. Moreover, this could be an SQL injection entry point when connected to the rest of the app. |  |
+| F-04 | 🟡 Low | Weak password policy | Accepts passwords like "12345" |  |
+| F-05 | 🟡 Low | Young users are allowed to register with invlaid birth dates | The age of a user should be checked to determine if the user is legally authorized to use the website. Also, an account should not be created for invalid birth dates (i.e. 01.01.2045) |  |
 
 ---
 

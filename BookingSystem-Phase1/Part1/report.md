@@ -14,14 +14,14 @@ Vulnerabilities :
 # 1️⃣ Introduction
 
 **Tester(s):**  
-- Name:  
+- Name: Nassim Boudekhani
 
 **Purpose:**  
-- Describe the purpose of this test (e.g., identify vulnerabilities in registration and authentication flows).
+- Find vulnerabilities in the registration process, and its related components.
 
 **Scope:**  
-- Tested components:  
-- Exclusions:  
+- Tested components:  HTML form validation, registration API
+- Exclusions:  Database
 - Test approach: Gray-box / Black-box / White-box
 
 **Test environment & dates:**  

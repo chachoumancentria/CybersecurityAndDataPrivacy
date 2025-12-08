@@ -5,9 +5,9 @@ Total : 59h
 | Date  | Used hours | Subject(s) | Outcome(s) |
 | :--- | :---: | :---: | :---: |
 | 28.10.2025 | 2 | Course | Online Course |
-| 4.11.2025 | 1.5 | Cisco/netacad module 1 | Finished quiz 1 |
+| 4.11.2025 | 2 | Cisco/netacad module 1 | Finished quiz 1 |
 | 4.11.2025 | 2 | Course | Online Course |
-| 5.11.2025 | 2.5 | Cisco/netacad module 2 | Finished quiz 2 |
+| 5.11.2025 | 2 | Cisco/netacad module 2 | Finished quiz 2 |
 | 6.11.2025 | 2 | Cisco/netacad module 3 | Finished quiz 3 |
 | 7.11.2025 | 2 | Cisco/netacad module 4 | Finished quiz 4 |
 | 8.11.2025 | 3 | Cisco/netacad module 5 | Finished quiz 5 + introduction exam |

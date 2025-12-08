@@ -1,6 +1,6 @@
 # Logbook
 
-Total : 52h
+Total : 59h
 
 | Date  | Used hours | Subject(s) | Outcome(s) |
 | :--- | :---: | :---: | :---: |
@@ -19,11 +19,13 @@ Total : 52h
 | 18.11.2025 | 2 | Course | Online Course |
 | 18.11.2025 | 2 | Course | Online Course |
 | 24.11.2025 | 2 | Course | Online Course |
-| 26.11.2025 | 3 | Project | Part 1 - Phase 1; breach finding |
-| 28.11.2025 | 3 | Project | Part 1 - Phase 1; report |
-| 02.12.2025 | 1 | Project | Phase 1 - Part 2; breach testing |
-| 02.12.2025 | 3 | Project | Phase 1 - Part 2; report |
+| 26.11.2025 | 3 | Project | Phase 1 - Part 1; Breach finding |
+| 28.11.2025 | 3 | Project | Phase 1 - Part 1; Report |
+| 02.12.2025 | 1 | Project | Phase 1 - Part 2; Breach testing |
+| 02.12.2025 | 3 | Project | Phase 1 - Part 2; Report |
 | 4.12.2025 | 2 | Course | Online Course |
+| 7.12.2025 | 3 | Project | Phase 2 - Part 1; Analysis |
+| 8.12.2025 | 4 | Project | Phase 2 - Part 1; Report |
 | 9.12.2025 | 4 | Course | Online Course |
 | 11.12.2025 | 2 | Course | Online Course |
 | 18.12.2025 | 4 | Course | Online Course |

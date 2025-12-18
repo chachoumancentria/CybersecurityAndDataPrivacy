@@ -67,8 +67,8 @@
 | **Result** | **Documentation and communication** |
 | :----: | :--- |
 | &nbsp;✅&nbsp; | Is there a privacy policy available to users during registration and easily accessible? |
-| &nbsp;❌&nbsp; NOTE : no information were given regarding this | Are administrators and developers provided with documented data protection practices <br>and processing activities? |
-| &nbsp;❌&nbsp; NOTE : no information were given regarding this | Is there a documented data breach response process (e.g., how to notify authorities <br>and users of a breach)? |
+| &nbsp;❔&nbsp; | Are administrators and developers provided with documented data protection practices <br>and processing activities? |
+| &nbsp;❔&nbsp; | Is there a documented data breach response process (e.g., how to notify authorities <br>and users of a breach)? |
 
 ---
 
@@ -76,3 +76,4 @@
 ✅ Pass (a note can be added)  
 ❌ Fail (a note can be added)  
 ⚠️ Attention (a note can be added)
+❔ No information given / Not found

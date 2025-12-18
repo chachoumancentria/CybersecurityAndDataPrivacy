@@ -1,6 +1,6 @@
 # Logbook
 
-Total : 59h
+Total : 66h
 
 | Date  | Used hours | Subject(s) | Outcome(s) |
 | :--- | :---: | :---: | :---: |

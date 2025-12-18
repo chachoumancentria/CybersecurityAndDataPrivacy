@@ -52,7 +52,7 @@
 | **Result** | **Data anonymization and pseudonymization** |
 | :----: | :--- |
 | &nbsp;⚠️&nbsp; NOTE : Emails are displayed in the reservation list. Displaying a small part of the email is suffisient (i.e. res***@reserver.com) | Is personal data anonymized where possible? |
-| &nbsp;/⚠️&nbsp; NOTE : Some of the data is anonymised, but it can be even better by partially hiding email adresses as metionned above | Are pseudonymization techniques used to protect data while maintaining its utility? |
+| &nbsp;⚠️&nbsp; NOTE : Some of the data is anonymised, but it can be even better by partially hiding email adresses as metionned above | Are pseudonymization techniques used to protect data while maintaining its utility? |
 
 ---
 

@@ -52,7 +52,7 @@ Depending on your jurisdiction, you may have rights including:
 - Request portability of your data;
 - Withdraw consent where processing is based on consent.
 
-To exercise rights, contact support@centriacyber.example (replace with your official contact). We may require verification before fulfilling requests.
+To exercise rights, contact support@centriacyber.example. We may require verification before fulfilling requests.
 
 ## 10. International Transfers
 Data may be processed or stored in jurisdictions different from your own. We take steps to ensure appropriate protections (standard contractual clauses, vendor assessments) when transferring data internationally.
@@ -64,4 +64,4 @@ The Service is not intended for children under applicable minimum ages. We do no
 We may update this Privacy Policy. Material changes will be posted with a new effective date. Continued use after changes indicates acceptance.
 
 ## 13. Contact
-For privacy questions or to exercise your rights: privacy@centriacyber.example (replace with your official contact).
+For privacy questions or to exercise your rights: privacy@centriacyber.example.

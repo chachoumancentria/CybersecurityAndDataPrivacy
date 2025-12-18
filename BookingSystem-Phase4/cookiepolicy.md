@@ -26,4 +26,4 @@ Cookie durations vary: session cookies expire when you close your browser; persi
 We may update our cookie use to reflect new features or legal requirements. Notices of material changes will appear on the Site.
 
 ## 7. Contact
-For questions about our Cookie Policy or to request more information: privacy@centriacyber.example (replace with your official contact).
+For questions about our Cookie Policy or to request more information: privacy@centriacyber.example.

@@ -43,7 +43,7 @@
 | **Result** | **Data security** |
 | :----: | :--- |
 | &nbsp;✅&nbsp; | Are CSRF, XSS, and SQL injection protections implemented? |
-| &nbsp;❌&nbsp; NOTE : currently using MD5 | Are passwords securely hashed using a strong algorithm (e.g., bcrypt, Argon2)? |
+| &nbsp;⚠️&nbsp; NOTE : Not a strong enough algorithm currently using MD5 | Are passwords securely hashed using a strong algorithm (e.g., bcrypt, Argon2)? |
 | &nbsp;❔&nbsp; | Are data backup and recovery processes GDPR-compliant? |
 | &nbsp;✅&nbsp; Stored in local host, thus yes | Is personal data stored in data centers located within the EU? |
 
@@ -51,8 +51,8 @@
 
 | **Result** | **Data anonymization and pseudonymization** |
 | :----: | :--- |
-| &nbsp;✅/❌/⚠️&nbsp; | Is personal data anonymized where possible? |
-| &nbsp;✅/❌/⚠️&nbsp; | Are pseudonymization techniques used to protect data while maintaining its utility? |
+| &nbsp;⚠️&nbsp; NOTE : Emails are displayed in the reservation list. Displaying a small part of the email is suffisient (i.e. res***@reserver.com) | Is personal data anonymized where possible? |
+| &nbsp;/⚠️&nbsp; NOTE : Some of the data is anonymised, but it can be even better by partially hiding email adresses as metionned above | Are pseudonymization techniques used to protect data while maintaining its utility? |
 
 ---
 

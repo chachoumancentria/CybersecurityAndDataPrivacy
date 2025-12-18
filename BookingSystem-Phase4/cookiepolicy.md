@@ -1,30 +1,29 @@
-# Cookie Policy
+# Cookie Policy — CentriaCyber Booking System
 
-## 1. What Are Cookies
+**Effective date:** December 18, 2025
 
-Cookies are small text files stored on your device to ensure proper website functionality.
+## 1. What are cookies?
+Cookies are small text files placed on your device when you visit websites. They help the Site remember preferences, enable core functionality, and provide analytics.
 
-## 2. Cookies We Use
+## 2. Types of cookies we use
+- **Essential cookies:** Required for the Site to function (e.g., session management, authentication). These cannot be disabled if you want to use core features.
+- **Preference cookies:** Remember choices you make (language, display preferences).
+- **Analytics cookies:** Help us understand how visitors interact with the Site so we can improve features and performance (e.g., page views, navigation patterns).
+- **Advertising cookies (if applicable):** May be used by third parties to deliver targeted adverts. We do not serve targeted advertising directly from the Site.
 
-This website uses only **essential cookies**, such as:
+## 3. First-party vs Third-party cookies
+Some cookies are set directly by CentriaCyber (first-party). We may also allow third parties (analytics providers, embedded widgets) to set cookies; their use is governed by those third parties’ policies.
 
-* Session cookies for authentication
-* Security-related cookies
+## 4. Managing cookies & consent
+- **Browser controls:** Most browsers let you refuse or delete cookies via settings. Note that blocking essential cookies may break Site functionality.
+- **Cookie banner / consent controls:** Where required by law, the Site will ask for consent to use non-essential cookies. You can change your consent preferences via the Site’s cookie settings (if available) or your browser.
+- **Opting out of analytics:** If we use third-party analytics, opt-out links or instructions will be provided when required.
 
-No tracking, advertising, or analytics cookies are used.
+## 5. Retention
+Cookie durations vary: session cookies expire when you close your browser; persistent cookies remain for a fixed period (days, months, or years) depending on their purpose.
 
-## 3. Legal Basis
+## 6. Changes to cookie usage
+We may update our cookie use to reflect new features or legal requirements. Notices of material changes will appear on the Site.
 
-Essential cookies are used based on legitimate interest and do not require explicit consent under GDPR.
-
-## 4. Managing Cookies
-
-You can configure your browser to block cookies. However, doing so may prevent you from using the booking system correctly.
-
-## 5. Changes to This Policy
-
-These policies may be updated. Changes will take effect once published on this page.
-
-## 6. Contact
-
-For any questions regarding these policies, please contact the system administrator.
+## 7. Contact
+For questions about our Cookie Policy or to request more information: privacy@centriacyber.example (replace with your official contact).

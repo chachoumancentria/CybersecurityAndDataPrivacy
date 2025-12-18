@@ -153,5 +153,10 @@ These are our conclusions on the current state of user permissions. This list is
 
 (NOTE: Accessing the reservation page of a non-existing reservation (i.e. deleted) causes an internal server error)
 
+
+# Zap report
+
+The Zap report can be accessed [here](https://github.com/chachoumancentria/CybersecurityAndDataPrivacy/blob/main/ZAP%20Reports/2025-12-17-ZAP-Report.md)
+
 ## Extra
 We found a little error when creating a reservation with a date before the year 25 (Year 25, not 2025). The error displays "User must be over 15 years old to make a reservation", which is not the correct error message.

@@ -28,22 +28,22 @@
 | :----: | :--- |
 | &nbsp;❌&nbsp; Reservers can create new ressources | Have you ensured that only administrators can add, modify, and delete<br> resources and bookings? |
 | &nbsp;✅&nbsp; | Is the system using role-based access control (e.g., reserver vs. administrator)? |
-| &nbsp;✅/❌/⚠️&nbsp; | Are administrator privileges limited to ensure GDPR compliance (e.g., administrators<br> cannot use data for unauthorized purposes)? |
+| &nbsp;❔&nbsp; | Are administrator privileges limited to ensure GDPR compliance (e.g., administrators<br> cannot use data for unauthorized purposes)? |
 
 ---
 
 | **Result** | **Privacy by Design Principles** |
 | :----: | :--- |
 | &nbsp;✅&nbsp; | Has Privacy by Default been implemented (e.g., collecting the minimum data by default)? |
-| &nbsp;✅/❌/⚠️&nbsp; | Are logs implemented without unnecessarily storing personal data? |
+| &nbsp;✅&nbsp; | Are logs implemented without unnecessarily storing personal data? |
 | &nbsp;✅/❌/⚠️&nbsp; | Are forms and system components designed with data protection in mind<br> (e.g., secured login, minimal fields)? |
 
 ---
 
 | **Result** | **Data security** |
 | :----: | :--- |
-| &nbsp;❌&nbsp; NOTE : currently using MD5 | Are CSRF, XSS, and SQL injection protections implemented? |
-| &nbsp;✅/❌/⚠️&nbsp; | Are passwords securely hashed using a strong algorithm (e.g., bcrypt, Argon2)? |
+| &nbsp;✅/❌/⚠️&nbsp; | Are CSRF, XSS, and SQL injection protections implemented? |
+| &nbsp;❌&nbsp; NOTE : currently using MD5 | Are passwords securely hashed using a strong algorithm (e.g., bcrypt, Argon2)? |
 | &nbsp;✅/❌/⚠️&nbsp; | Are data backup and recovery processes GDPR-compliant? |
 | &nbsp;✅&nbsp; Stored in local host, thus yes | Is personal data stored in data centers located within the EU? |
 

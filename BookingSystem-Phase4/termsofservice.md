@@ -42,4 +42,4 @@ These Terms are governed by the laws of the jurisdiction where CentriaCyber is e
 We may update these Terms from time to time. We will post the updated Terms on the Site with a revised effective date. Continued use of the Service after changes constitutes acceptance of the new Terms.
 
 ## 13. Contact
-For questions about these Terms, contact: support@centriacyber.example (replace with your official contact).
+For questions about these Terms, contact: support@centriacyber.example.

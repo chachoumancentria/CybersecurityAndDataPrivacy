@@ -43,7 +43,7 @@
 | **Result** | **Data security** |
 | :----: | :--- |
 | &nbsp;✅&nbsp; | Are CSRF, XSS, and SQL injection protections implemented? |
-| &nbsp;⚠️&nbsp; NOTE : Not a strong enough algorithm currently using MD5 | Are passwords securely hashed using a strong algorithm (e.g., bcrypt, Argon2)? |
+| &nbsp;✅&nbsp; NOTE : currently using bcypt | Are passwords securely hashed using a strong algorithm (e.g., bcrypt, Argon2)? |
 | &nbsp;❔&nbsp; | Are data backup and recovery processes GDPR-compliant? |
 | &nbsp;✅&nbsp; Stored in local host, thus yes | Is personal data stored in data centers located within the EU? |
 

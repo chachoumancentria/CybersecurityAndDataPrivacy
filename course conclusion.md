@@ -19,5 +19,10 @@ During this Phase, it was very tedious to go through each possible interaction, 
 We had some trouble with a few things. It was mainly the wording of the things to check. We would sometimes disagree on what we should check for a specific field, but in the end, we managed to work it out.
 
 # Logbook
+Online classes: 24h
+Netacad course introduction: 12h
+Booking project: 28h
+PortSwigger labs: 16h
 
-
+Total: 80h
+[Link to the logbook](https://github.com/chachoumancentria/CybersecurityAndDataPrivacy/blob/main/logbook.md)

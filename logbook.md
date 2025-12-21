@@ -1,6 +1,6 @@
 # Logbook
 
-Total : 67h
+Total : 68h
 
 | Date  | Used hours | Subject(s) | Outcome(s) |
 | :--- | :---: | :---: | :---: |
@@ -30,5 +30,5 @@ Total : 67h
 | 11.12.2025 | 2 | Course | Online Course |
 | 17.12.2025 | 3 | Project | Phase 3 |
 | 17.12.2025 | 3 | Project | Phase 3 |
-| 18.12.2025 | 2 | Project | Phase 4 |
+| 18.12.2025 | 3 | Project | Phase 4 |
 | 18.12.2025 | 4 | Course | Online Course |

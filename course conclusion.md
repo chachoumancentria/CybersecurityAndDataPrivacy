@@ -1,6 +1,26 @@
 # PortSwigger
 
 Labs completed (20 total):
+1. SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
+2. SQL injection vulnerability allowing login bypass
+3. SQL injection attack, querying the database type and version on Oracle
+4. Unprotected admin functionality
+5. Unprotected admin functionality with unpredictable URL
+6. User role controlled by request parameter
+7. User role can be modified in user profile
+8. User ID controlled by request parameter 
+9. User ID controlled by request parameter, with unpredictable user IDs 
+10. User ID controlled by request parameter with data leakage in redirect 
+11. User ID controlled by request parameter with password disclosure
+12. Insecure direct object references
+13. Username enumeration via different responses
+14. 2FA simple bypass
+15. Password reset broken logic
+16. Information disclosure in error messages
+17. Information disclosure on debug page
+18. Source code disclosure via backup files
+19. Authentication bypass via information disclosure
+20. Information disclosure in version control history
 
 
 # The booking system project

@@ -22,6 +22,8 @@ Labs completed (20 total):
 19. Authentication bypass via information disclosure
 20. Information disclosure in version control history
 
+<img width="967" height="596" alt="image" src="https://github.com/user-attachments/assets/3788b3e2-40d9-43c6-a9cf-4e4bfb3dab93" />
+
 
 # The booking system project
 ## Phase1

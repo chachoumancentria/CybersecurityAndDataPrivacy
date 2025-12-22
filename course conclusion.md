@@ -40,6 +40,9 @@ During this Phase, it was very tedious to go through each possible interaction, 
 ## Phase4
 We had some trouble with a few things. It was mainly the wording of the things to check. We would sometimes disagree on what we should check for a specific field, but in the end, we managed to work it out.
 
+## Conclusion
+In the end, this project was both very fun and a good exercise. We were able to learn pentesting in a safe environment, without putting anyone's data at risk, by hosting the service ourselves, and by never having to the internet, we are able to do basically anything without risking legal repercussion. We also learned to use a few tools, like ZAP, Burp, and hascat. We learned to think like a hacker, trying to find every possible mistake the app developper would make.
+
 # Logbook
 Online classes: 24h
 Netacad course introduction: 12h
@@ -47,4 +50,8 @@ Booking project: 28h
 PortSwigger labs: 16h
 
 Total: 80h
+
 [Link to the logbook](https://github.com/chachoumancentria/CybersecurityAndDataPrivacy/blob/main/logbook.md)
+
+# Feedback
+During the booking project, it felt like a lot of these mistakes were left there on purpose, like easter eggs. We were able to find them on our own, but it felt like the App was purposefully unsecure. 
